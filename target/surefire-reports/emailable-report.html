@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Error Validations Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">22,505</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Submit Order Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,996</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num attn">1</th><th class="num attn">2</th><th class="num">47,501</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Error Validations Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">swethapanchumarthy.Tests.ErrorValidations</td><td><a href="#m0">loginerrorValidation</a></td><td rowspan="1">1676438551536</td><td rowspan="1">848</td></tr><tr><th colspan="4">Error Validations Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">swethapanchumarthy.Tests.ErrorValidations</td><td><a href="#m1">loginerrorValidation</a></td><td rowspan="1">1676438546456</td><td rowspan="1">904</td></tr><tr><th colspan="4">Error Validations Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">swethapanchumarthy.Tests.ErrorValidations</td><td><a href="#m2">producterrorValidation</a></td><td rowspan="1">1676438559953</td><td rowspan="1">2733</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Submit Order Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">swethapanchumarthy.Tests.SubmitOrderTest</td><td><a href="#m3">submitOrder</a></td><td rowspan="1">1676438559716</td><td rowspan="1">5285</td></tr><tr><th colspan="4">Submit Order Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">swethapanchumarthy.Tests.SubmitOrderTest</td><td><a href="#m4">OrderHistoryTest</a></td><td rowspan="1">1676438565492</td><td rowspan="1">1</td></tr><tr><th colspan="4">Submit Order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">swethapanchumarthy.Tests.SubmitOrderTest</td><td><a href="#m5">submitOrder</a></td><td rowspan="1">1676438546576</td><td rowspan="1">5430</td></tr></tbody>
+</table>
+<h2>Error Validations Test</h2><h3 id="m0">swethapanchumarthy.Tests.ErrorValidations#loginerrorValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+	at swethapanchumarthy.Tests.ErrorValidations.loginerrorValidation(ErrorValidations.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">swethapanchumarthy.Tests.ErrorValidations#loginerrorValidation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+	at swethapanchumarthy.Tests.ErrorValidations.loginerrorValidation(ErrorValidations.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">swethapanchumarthy.Tests.ErrorValidations#producterrorValidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Submit Order Test</h2><h3 id="m3">swethapanchumarthy.Tests.SubmitOrderTest#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Practice@3239, product=ADIDAS ORIGINAL, email=trainee@gmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1173, 764)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f9fcc79937c662ce158786189683716, clickElement {id=84b62695-4c44-485c-a113-abb6a4bb2e65}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SWETHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53008/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9f9fcc79937c662ce158786189683716)] -&gt; xpath: //li[@class=&apos;totalRow&apos;]/button]
+Session ID: 9f9fcc79937c662ce158786189683716
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at swethapanchumarthy.pageobjects.CartPage.goToCheckout(CartPage.java:39)
+	at swethapanchumarthy.Tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">swethapanchumarthy.Tests.SubmitOrderTest#OrderHistoryTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method swethapanchumarthy.Tests.SubmitOrderTest.OrderHistoryTest() on instance swethapanchumarthy.Tests.SubmitOrderTest@49ff7d8c depends on not successfully finished methods 
+[swethapanchumarthy.Tests.SubmitOrderTest.submitOrder() on instance swethapanchumarthy.Tests.SubmitOrderTest@49ff7d8c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">swethapanchumarthy.Tests.SubmitOrderTest#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Practice@3239, product=ZARA COAT 3, email=pswetha308@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
