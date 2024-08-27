@@ -88,6 +88,8 @@ public class BaseTests {
 	public void tearDown()
 	{
 		driver.quit();
+		System.out.println("Browser Closed");
+		
 	}
 	
 }
